@@ -1,0 +1,259 @@
+@media screen and (max-width: 1500px) {
+.container{
+	width: 100%;
+}
+.main-head .container {
+    width:100%;
+}
+.apta-nav ul li a{
+    font-size: 12px;
+}
+.apta-nav ul li {
+    padding: 20px 10px;
+}
+.green-box h2 {
+font-weight: 600;
+font-size: 14px;
+
+}
+.menus-details a
+{
+font-weight: 600 !important;
+font-size: 14px !important;
+color: rgb(0, 0, 0) !important;
+text-decoration: none !important;
+background: transparent !important;
+
+}
+.green-box p{
+font-size: 12px;
+line-height: 17px;
+
+min-height: 55px;
+
+}
+.has-submenu {
+    padding: 30px 25px !important;
+}
+
+
+}
+@media screen and (max-width: 1060px) {
+
+
+.links-footer ul li, .all-rights ul li{
+	padding: 20px;
+}
+.center_block h2, .center_block h3{
+	font-size: 30px;
+}
+.center_block p {
+    font-size: 18px;}
+.apta-nav ul li {
+    padding: 20px 3px;
+}
+.img-box h4 {
+    font-size: 15px;
+}
+
+}
+@media screen and (max-width: 1023px) {
+
+html body .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+	width: 23% !important;
+	margin: 15px 1% !important;
+}
+.woocommerce ul.products li.product a img {
+
+	max-height: 170px;
+	min-height: 170px;
+	
+}
+}
+
+@media screen and (max-width: 767px){
+	.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+	
+	font-size: 12px;
+	padding: 0 3px;
+}
+	
+	.woocommerce div.product .woocommerce-tabs ul.tabs li {
+
+	padding: 0 5px 5px;
+}
+	
+	.woocommerce-ordering {
+	padding: 0 10px 10px;
+}
+	
+	.woocommerce ul.products li.product .onsale {
+	margin: -5px;
+}
+.woocommerce span.onsale {
+	
+	width: 40px;
+	height: 40px;
+	line-height: 35px;
+}
+	h1, .h1 {
+	font-size: 26px;
+}
+h2, .h2 {
+	font-size: 20px;
+}
+html body .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+	width: 48% !important;
+	margin: 15px 1% !important;
+}
+.nav-menu{
+	display: none;
+}
+.icon:hover{
+	color: #fff;
+}
+.icon {
+ display: block;
+text-align: right;
+position: absolute;
+right: 10px;
+top: 0;
+top: -45px;
+z-index: 99;
+}
+.apta-nav {
+    width: 100%;
+}
+.apta-nav ul li {
+display: block;
+padding: 10px;
+font-size: 0;
+text-align: left;
+border-right: none;
+border-bottom: 1px solid rgb(255, 255, 255, .2) !important;
+}
+.apta-brand {
+    float: left;
+    position: static;
+}
+.links-footer ul li, .all-rights ul li {
+    padding: 15px;
+}
+.center_block h2, .center_block h3{
+	font-size: 20px;
+}
+.center_block p {
+    font-size: 14.14px;}
+
+.cont-main.photos ul li {
+    width: 49%;}
+
+.top-center-text h2 {
+
+    font-size: 25px;}
+.main-page {
+  margin: 10px 0;
+}
+.inner-main h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.input-news {
+    margin: 0;}
+    .news {
+    float: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.mail-box{
+    margin:0 auto;
+}
+.input-news {
+    margin: 0;
+    width: 100%;
+}
+.input-news input[type="text"]{
+    width: 95%;
+}
+.news-leater {
+    padding: 10px 0;
+}
+.details {
+   width: 100%;}
+
+.links-footer ul li {
+    display: block;
+text-align: left;padding: 10px;border-bottom: 1px solid rgb(217, 217, 217);} 
+.links-footer ul li:after, .all-rights ul li::after{
+    display: none;
+}
+.all-rights ul li
+{
+    padding: 10px;
+}
+.user-ico{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;  
+}
+.user-box {
+    min-height: auto;
+    margin-top: 15px;
+}
+#menu ul.menus{
+    position: relative;
+}
+#menu li:hover ul.menus {
+    display: none;
+}
+.green-box{
+        min-height: 170px;
+}
+}
+
+@media screen and (max-width:480px){
+.center_block h2, .center_block h3{
+	font-size: 15px;
+}
+.center_block p {
+    font-size: 12px;}
+
+.owl-prev, .owl-next {
+    width: 30px;
+    height: 30px;
+line-height: 30px;}
+
+.cont-main.photos ul li {
+    width: 100%;}
+    .apta-brand{
+    width: 30%;
+}
+.flex-control-nav img {
+
+	max-height: 20px;
+}
+.flex-control-thumbs li{
+	padding:3px;
+}
+}
+
+@media screen and (max-width:420px){
+.center_block h2, .center_block h3, .center_block p{
+	display: none;
+}
+.top-center-text h2 {
+    font-size: 15px;
+
+}
+.woocommerce ul.products li.product a img {
+	max-height: 140px;
+	min-height: 140px;
+}
+.woocommerce-ordering {
+	padding: 0 0px 0px;
+	float: none !important;
+	width: 100%;
+	clear: both;
+}
+}

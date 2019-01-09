@@ -1,0 +1,4 @@
+[29-Nov-2018 14:04:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /data/home/pdcisinl/public_html/apta/wp-content/themes/apta/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /data/home/pdcisinl/public_html/apta/wp-content/themes/apta/index.php on line 17

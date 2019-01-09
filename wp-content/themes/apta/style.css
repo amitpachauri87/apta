@@ -1,0 +1,256 @@
+/*
+Theme Name: APTA
+Theme URI: https://cisin.com
+Author: the CIS team
+Author URI: https://cisin.com
+Description: custom theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: events , calendar, tournaments
+Text Domain: apta
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Reset
+ * 2.0 - Genericons
+ * 3.0 - Typography
+ * 4.0 - Elements
+ * 5.0 - Forms
+ * 6.0 - Navigations
+ *   6.1 - Links
+ *   6.2 - Menus
+ * 7.0 - Accessibility
+ * 8.0 - Alignments
+ * 9.0 - Clearings
+ * 10.0 - Header
+ * 11.0 - Widgets
+ * 12.0 - Content
+ *    12.1 - Posts and pages
+ *    12.2 - Post Formats
+ *    12.3 - Comments
+ * 13.0 - Footer
+ * 14.0 - Media
+ *    14.1 - Captions
+ *    14.2 - Galleries
+ * 15.0 - Multisite
+ * 16.0 - Media Queries
+ *    16.1 - Mobile Large
+ *    16.2 - Tablet Small
+ *    16.3 - Tablet Large
+ *    16.4 - Desktop Small
+ *    16.5 - Desktop Medium
+ *    16.6 - Desktop Large
+ *    16.7 - Desktop X-Large
+ * 17.0 - Print
+ */
+
+
+/**
+ * 1.0 - Reset
+ *
+ * Resetting and rebuilding styles have been helped along thanks to the fine
+ * work of Eric Meyer, Nicolas Gallagher, Jonathan Neal, and Blueprint.
+ */
+
+ .input-news input[type="email"] {
+    width: 100%;
+    height: 34px;
+    border-radius: 2px;
+    border: 1px solid #fff;
+    padding: 0 10px;
+}
+
+.user-ico {
+    font-size: 40px !important;
+    color: rgb(51, 153, 103);
+    background: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    line-height: 100px !important;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+ul.products{font-size: 18px!important;}
+.woocommerce-page li{border-bottom:none!important;}
+
+.woocommerce-page li::after {
+    content: none!important;
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    color: rgb(51, 153, 103);
+}
+.woocommerce-page ul{font-size: 18px!important;}
+.woocommerce-page tr:nth-child(2n) {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation li{border-bottom:1px solid gray!important;}
+.woocommerce-account .woocommerce-MyAccount-navigation li::after {
+    content: "\f105"!important;
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    color: rgb(51, 153, 103);
+}
+
+.btn-mail{
+	background:url(images/envelope.png) no-repeat center;
+	background-size:16px;
+}
+#menu ul.menus{
+	background:#ebf5f0;
+}
+.sub-menu.menus {
+	max-width: 250px;
+	left: inherit !important;
+	margin-left: -15px !important;
+	text-align: left;
+}
+.sub-menu.menus li, .sub-menu.menus li a{
+	text-align:left !important;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+	background: #339967;
+	text-transform: capitalize;
+	color: #fff;
+	border-radius: 2px;
+	margin-top: 5px;
+}
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+
+	min-height: 32px;
+}
+
+ul.products {
+	margin: 0 -15px !important;
+}
+.products li {
+	margin: 0 15px 25px 15px !important;
+	border: solid 1px #ccc !important;
+	padding: 5px 5px 10px 5px !important;
+	text-transform:capitalize;
+	text-align:center;
+	
+}
+.woocommerce ul.products li.product .onsale {
+	
+	margin: -1.5em -.5em 0 0;
+}
+.woocommerce span.onsale {
+	
+	background-color: #339967;
+	color: #fff;
+	font-size: 12px;
+	z-index: 9;
+	font-weight: normal;
+	width: 50px;
+	height: 50px;
+	display: block;
+	line-height: 45px;
+}
+.woocommerce ul.products li.product .button {
+	margin-top: 1em;
+	font-size: 13px;
+}
+.woocommerce ul.products li.product a img {
+	height: auto;
+	display: inline-block;
+	margin: 0 0 1em;
+	box-shadow: none;
+	max-height: 210px;
+	min-height: 210px;
+	width: auto;
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+	background-color: #339967;
+	
+}
+.woocommerce div.product form.cart div.quantity {
+	
+	margin: 8px 10px 0 0;
+}
+.cart{
+	padding-top:10px;
+}
+.woocommerce div.product .product_title {
+	
+	text-transform: capitalize;
+	font-size: 27px;
+}
+h2, .h2 {
+	font-size: 24px;
+}
+.woocommerce div.product div.images .flex-control-thumbs{
+	padding:10px 0;
+}
+.flex-control-thumbs li {
+	border: solid 1px #ccc !important;
+	margin: 1% !important;
+	padding: 5px;
+	max-width: 18%;
+}
+.woocommerce div.product p.price, .woocommerce div.product span.price{
+	color:#339967;
+}
+.woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3 {
+	
+	font-size: 13px;
+}
+.woocommerce ul.products li.product .price {
+	color: #339967;
+
+	font-size: 14px;
+}
+.woocommerce table.shop_table{
+	border:0;
+}
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+	background-color: #1b8350;
+	color: #fff;
+}
+
+.woocommerce  form #payment  .form-row .input-checkbox {
+	
+	margin: 13px 8px 0 0;
+	
+}
+
+.woocommerce-ordering {
+	padding: 0 40px 40px;
+}
+.woocommerce-ordering  select {
+    vertical-align: top;
+    border: solid 1px #ccc;
+    padding: 4px;
+}
+.cont-main.rank ul li::after{
+	left:5px;
+}
+
+.flex-control-nav img {
+	display: block;
+	width: auto;
+	height: auto;
+	box-shadow: none;
+	max-height: 50px;
+}
+.woocommerce div.product div.images .flex-control-thumbs li{
+	width:auto;
+}
